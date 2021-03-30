@@ -1,0 +1,315 @@
+/* ШРИФТЫ [НАЧАЛО] */
+@font-face {
+	font-family: 'RobootoRegular';
+	src: url(../fonts/RR.ttf);
+	font-width: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'RobootoBold';
+	src: url(../fonts/RB.ttf);
+	font-width: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'RobootoLite';
+	src: url(../fonts/RL.ttf);
+	font-width: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'OpenSans';
+	src: url(../fonts/OpenSans.ttf);
+	font-width: normal;
+	font-style: normal;
+}
+
+@font-face {
+	
+	src: url(../fonts/OpenSansBold.ttf);
+	font-width: bold;
+	font-style: normal;
+}
+
+a {
+	color: #111;
+	text-decoration: none;
+	transition: 0.6s;
+}
+/* ШРИФТЫ [КОНЕЦ] */
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: #f5fbfa;
+}
+
+.cn {
+	position: relative;
+	min-height: 100%;
+	min-width: 1300px;
+}
+
+.wrapper {
+	width: 1200px;
+	padding: 0 50px;
+	margin: 0 auto;
+}
+
+/* НАВИГАЦИЯ [НАЧАЛО] */
+.navigation {
+	background: #fff; 
+	height: 50px;
+	border-bottom: 1px dotted rgba(161,168,182,1);
+}
+
+.navigation .wrapper {
+	overflow: hidden;
+	height: 120px;
+}
+
+.navigation .menu {
+	float: right;
+	height: 50px;
+	margin: 0 -10px;
+}
+
+.navigation .menu a {
+	float: left;
+	font-family: 'OpenSansBold';
+	margin: 0 10px;
+	padding: 18px 0;
+	color: #000;
+	font-size: 12px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.navigation .menu a:hover {
+	color: #ff6900;
+}
+
+/* НАВИГАЦИЯ [КОНЕЦ] */
+
+/* КОНТЕНТ [НАЧАЛО] */
+.content {
+	padding: 20px 0 auto 0;
+	background: #fff;
+	margin: 0 auto;
+	overflow: hidden;
+	font: 14px 'OpenSans';
+	text-align: center;
+}
+
+.content table.content-table {
+	width: auto; 
+    border: 0;
+    margin: auto; 
+}
+
+* {box-sizing: border-box;}
+.product-item {
+  	width: 233px;
+  	text-align: center;
+  	margin: 10px 20px;
+  	background: white;
+  	font-family: "Open Sans";
+  	transition: .3s ease-in;
+}
+
+.product-item img {
+	margin-left: 10px;
+  	display: block;
+  	width: 233px;
+ 	height: 233px;
+}
+
+.product-list {
+  	background: #fafafa;
+  	padding: 10px 0;
+}
+
+.product-list h3 {
+  	font-size: 18px;
+  	font-weight: 400;
+  	color: #444444;
+  	margin: 0 0 10px 0;
+}
+
+.price {
+  	font-size: 16px;
+  	color: #ff6900;
+	margin-bottom: 12px;
+	margin-right: 15px;
+}
+
+.button {
+  	text-decoration: none;
+  	display: inline-block;
+  	padding: 0 12px;
+  	background: #cccccc;
+  	color: white;
+  	text-transform: uppercase;
+  	font-size: 12px;
+  	line-height: 28px;
+  	transition: .3s ease-in;
+}
+.product-item:hover .button {background: #ff6900;}
+/* КОНТЕНТ [КОНЕЦ] */
+
+/* ПОДВАЛ [НАЧАЛО] */
+
+.footer {
+	background: #f5fbfa;
+	padding: 20px 0;
+	color: #999caf;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100px;
+	font-size: 14px;
+}
+
+/* ШАПКА ПОДВАЛА [НАЧАЛО] */
+.footer ul.head {
+	padding: 0;
+	margin-top: 0px;
+	list-style: none;
+	overflow: hidden;
+}
+
+ul.head li .copyright {
+	list-style: none;
+	float: left;
+	width: 30%;
+	margin-right: 0 auto;
+}
+
+.footer ul.head .copyright b {
+	text-transform: uppercase;
+	display: block;
+	font-family: 'OpenSansBold';
+	font-size: 16px;
+}
+
+.footer ul.head .copyright b span {
+	color: #606262;
+	font-family: 'OpenSans';
+}
+
+.footer ul.head .copyright span {
+	color: #999caf;
+}
+
+.footer ul.head li .phone {
+	list-style: none;
+	float: right;
+	margin-right: 0 auto;
+}
+
+
+.footer ul.head .phone b {
+	display: block;
+	color: #606262;
+	font-family: 'OpenSansBold';
+	font-size: 18px;
+}
+
+.phone span {
+	padding-left: 17px;
+}
+
+/* ШАПКА ПОДВАЛА [КОНЕЦ] */
+
+/* НАВИГАЦИЯ В ПОДВАЛЕ [НАЧАЛО] */
+.footer .bottom {
+	margin-top: 20px;
+	border-top: 1px dotted rgba(161,168,182,1);
+}
+
+.footer .bottom ul {
+	padding: 0;
+	margin-top: 10px;
+}
+
+.footer .bottom ul li {
+	list-style: none;
+	display: inline-block;
+	margin-right: 5px;
+}
+
+.footer .bottom ul li a {
+	color: #000;
+	text-transform: uppercase;
+	display: block;
+	border-bottom: none;
+	border: 1px solid rgba(161,168,182,1);
+	padding: 4px 8px;
+	font-size: 10px;
+	text-decoration: none;
+}
+
+.footer .bottom ul li:hover a {
+	background: none;
+	border-color: rgba(0,0,0,1);
+	background: #000;
+	color: #fff;
+}
+/* НАВИГАЦИЯ В ПОДВАЛЕ [КОНЕЦ] */
+
+/* ПОДВАЛ [КОНЕЦ] */
+
+
+
+
+
+.roll-item {
+	display: inline-block;
+  	width: 233px;
+  	height: 356px;
+  	text-align: center;
+  	margin: 10px 20px;
+  	background: white;
+  	font-family: "Open Sans";
+  	transition: .3s ease-in;
+}
+
+.roll-item img {
+	margin-left: 7px;
+  	display: block;
+  	width: 233px;
+ 	height: 233px;
+}
+
+.product-composition {
+  	background: #fafafa;
+
+  	text-align: center;
+}
+
+.product-composition h3 {
+  	font-size: 18px;
+  	font-weight: 400;
+  	color: #444444;
+  	margin: 0 0 10px 0;
+}
+
+.product-composition b {
+	color: #444444;
+	font-weight: 500;
+	line-height: 1.5;
+	padding: 10px 0;
+  	font-size: 12px;
+  	text-transform: uppercase;
+}
+
+/* АВТОРИЗАЦИЯ */
+
+.auth {
+	padding: 20px 0 20px 0;
+	
+}
